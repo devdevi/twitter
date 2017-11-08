@@ -4,7 +4,6 @@
 }
 body{
 	margin: 0 auto;
-	background-image: url('../assets/images/india.jgp');
 }
 
 
@@ -15,13 +14,13 @@ nav{
 	
 }
 h1{
-	color; white;
-	margin:0;
+	color:white;
+	margin:auto;
+	padding-top:5px;
 
 }
-
 .fondo{
-	background-image: url(http://www.viajesdelalma.com.ar/wp/wp-content/uploads/2017/05/india-Taj-Mahal-shows-details.jpg);
+	background-image: url("../images/india.jpg");
     background-size: cover;
     height: 700px;
 }
@@ -29,33 +28,29 @@ div{
 	background: white;
 	margin:20px;
 	margin-top: 30px;
-	border: 1px solid red;
 	display: inline-block;
-}
-.container{
-	background: white;
-	border: 1px solid red;
 	overflow: hidden;
 	clear:both;
 }
-
-.center{
-	
-	text-align: center;
-	
+#characters, input{
+	border: 0;
+	font-size: 30px;
+	margin:10px;
+	float: right;
+	text-align: end;
 }
+
 .profile{
 	padding: 10px;
 	margin-left: 10%;
 }
+
 textarea{
-	margin:10px;
-	padding: 12px;
-	width: 500px;
-	height: 100px;
-	text-align: left;
-	overflow: hidden;
-	clear:both;	
+	margin: 22px;
+    padding: 12px;
+    width: 500px;
+    text-align: left;
+	overflow-y:hidden;
 }
 a{
 	text-decoration: none;
@@ -94,7 +89,7 @@ button:active{
 	outline: .1em solid #E5E3F2;
 	background:white;
 }
-.heart, .trash{
+.trash{
 	margin:1em;
 	float: right;
 }
@@ -102,10 +97,7 @@ button:active{
 	color:#1DA1F2;
 	cursor:pointer;
 }
-.red{
-	color: pink;
-	cursor: pointer;
-}
+
 p{
 	display: inline-block;
 	margin-left: .5em;
@@ -116,4 +108,9 @@ p{
 }
 .tweet{
 	color:blue;
+}
+
+#counter {
+	margin:0;
+	float: right;
 }
